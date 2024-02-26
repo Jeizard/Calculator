@@ -10,22 +10,22 @@
     <TextView
         android:id="@+id/entry_field"
         android:layout_width="match_parent"
-        android:layout_height="120sp"
+        android:layout_height="60sp"
         android:textColor="@color/black"
         android:gravity="end"
         android:ellipsize="start"
-        android:textSize="40sp"
-        android:maxLines="2"/>
+        android:textSize="30sp"
+        android:maxLines="1" />
 
     <TextView
         android:id="@+id/result_field"
         android:layout_width="match_parent"
-        android:layout_height="120sp"
+        android:layout_height="60sp"
         android:textColor="@color/black"
         android:gravity="end"
         android:ellipsize="end"
-        android:textSize="30sp"
-        android:maxLines="2" />
+        android:textSize="20sp"
+        android:maxLines="1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,26 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/ClearButton"
+                style="@style/ClearButtonLandscape"
                 android:id="@+id/btn_clear"
                 android:text="@string/clear"
                 android:layout_weight="2"
                 tools:ignore="NestedWeights" />
 
             <TextView
-                style="@style/ClearButton"
+                style="@style/ClearButtonLandscape"
                 android:id="@+id/btn_back"
                 android:text="@string/back"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_bracket"
                 android:text="@string/bracket"
                 />
 
             <TextView
-                style="@style/MemoryButton"
+                style="@style/MemoryButtonLandscape"
                 android:id="@+id/btn_memory_clear"
                 android:text="@string/memory_clear"
                 />
@@ -72,31 +72,31 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_power"
                 android:text="@string/power"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_reciprocal"
                 android:text="@string/reciprocal"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_root"
                 android:text="@string/root"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_percent"
                 android:text="@string/percent"
                 />
 
             <TextView
-                style="@style/MemoryButton"
+                style="@style/MemoryButtonLandscape"
                 android:id="@+id/btn_memory_store"
                 android:text="@string/memory_store"
                 />
@@ -110,31 +110,31 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_7"
                 android:text="@string/_7"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_8"
                 android:text="@string/_8"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_9"
                 android:text="@string/_9"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_division"
                 android:text="@string/division"
                 />
 
             <TextView
-                style="@style/MemoryButton"
+                style="@style/MemoryButtonLandscape"
                 android:id="@+id/btn_memory_recall"
                 android:text="@string/memory_recall"
                 />
@@ -148,32 +148,32 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_4"
                 android:text="@string/_4"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_5"
                 android:text="@string/_5"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_6"
                 android:text="@string/_6"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_multiply"
                 android:text="@string/multiply"
                 />
 
             <TextView
                 android:id="@+id/btn_memory_add"
-                style="@style/MemoryButton"
+                style="@style/MemoryButtonLandscape"
                 android:text="@string/memory_add" />
 
         </LinearLayout>
@@ -185,31 +185,31 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_1"
                 android:text="@string/_1"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_2"
                 android:text="@string/_2"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_3"
                 android:text="@string/_3"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_subtract"
                 android:text="@string/subtract"
                 />
 
             <TextView
-                style="@style/MemoryButton"
+                style="@style/MemoryButtonLandscape"
                 android:id="@+id/btn_memory_subtract"
                 android:text="@string/memory_subtract"
                 />
@@ -222,31 +222,31 @@
             android:layout_weight="1">
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_sign"
                 android:text="@string/sign"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_0"
                 android:text="@string/_0"
                 />
 
             <TextView
-                style="@style/NumberButton"
+                style="@style/NumberButtonLandscape"
                 android:id="@+id/btn_dot"
                 android:text="@string/dot"
                 />
 
             <TextView
-                style="@style/ActionButton"
+                style="@style/ActionButtonLandscape"
                 android:id="@+id/btn_add"
                 android:text="@string/add"
                 />
 
             <TextView
-                style="@style/ResultButton"
+                style="@style/ResultButtonLandscape"
                 android:id="@+id/btn_result"
                 android:text="@string/result"
                 />
