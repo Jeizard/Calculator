@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
                 }
             }
             binding.btnDot.id -> {
-                if (str.isEmpty() || operators.any { str.endsWith(it) }) {
+                if ((str.isEmpty() || operators.any { str.endsWith(it)}) && !str.endsWith(OPERATOR_DOT)) {
                     str += "0$OPERATOR_DOT"
                 } else {
                     val lastNumber = str.split(Regex("""[-+*/()]""")).last()
